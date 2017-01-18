@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 		die("connection failed..!" . mysqli_error($conn));
 	}
 
-	$sql = "SELECT * FROM register WHERE email_id = '$user_name' AND password ='$user_password'";
+	$sql = "SELECT email_id, password FROM register WHERE email_id = '$user_name' AND password ='$user_password'";
 	$res = mysqli_query($conn,$sql);
 	echo $user_name;
 	if(!$res){

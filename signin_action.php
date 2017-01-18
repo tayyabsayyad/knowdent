@@ -1,8 +1,13 @@
 <?php
-include("database.php");
 
-$query="select * from register";
-$result=mysqli_query($con,$query);
+$con=mysqli_connect('localhost','root','','knowdent');
+
+//checking the connection.
+if(mysqli_connect_errno()){
+	die ("Failed to connect :".mysqli_connect_error());
+}
+$qsql="select * from register";
+$result=mysqli_query($con,$sql);
 $count=mysqli_num_rows($result);
 $count++;
 
@@ -13,10 +18,10 @@ $age=$_POST['option1'];
 $email=$_POST['email'];
 $password=$_POST['password'];
 
-$query="INSERT INTO users VALUES('$count','$f_name','$l_name','$gender','$age','$email','$password')";
+$query="INSERT INTO register VALUES('$count','$f_name','$l_name','$gender','$age','$email','$password')";
 mysqli_query($con,$query);
 
-header("location: login.php?r=1");
+header('Location: user_login.php');
 
 ?>
 

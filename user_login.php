@@ -15,13 +15,13 @@
 		</div>
 		</div>
 		
-		<div id="seconddiv">
+		<div id="secdiv">
 			<div style="text-align:center; font-size:30px; color:#660066;">
 		
 		</div>	
-			<center><div id="fourthdiv">
+			<center><div id="thirddiv">
 				<br><br>
-				<form method="post" action="user_login_verify.php">
+				<form method="post" action="login_verify.php">
 				<table id="logintable" cellspacing="10">
 					<tr>
 						<td>Email: </td>

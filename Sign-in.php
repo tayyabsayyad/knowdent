@@ -14,11 +14,11 @@
 		</div>
 		</div>
 		
-		<div id="seconddiv">
+		<div id="secdiv">
 			<div style="text-align:center; font-size:30px; color:#660066;">
 			<strong>Please Enter Personal Details...</strong>
 		</div>	
-			<center><div id="fourthdiv">
+			<center><div id="thirddiv">
 				<br><br>
 				<form method="post" action="signin_action.php">
 				<table id="signintable" cellspacing="10">
@@ -55,10 +55,6 @@
 						<td> <input type="password" name="password" style="height:auto; padding:auto; width:100%;"></td>
 					</tr>
 					<tr>
-						<td>Retype Password: </td>
-						<td> <input type="password" name="password1" style="height:auto; padding:auto; width:100%;"></td>
-					</tr>
-					<tr>
 					<td> </td>
 					<td> <input type="submit" value="Submit" style="height:auto; width:150px;" > &nbsp&nbsp&nbsp <input type="reset" value="clear" 
 					style="height:auto; width:150px;"></td>
@@ -68,5 +64,4 @@
 			</div></center>
 	</div>	
 	
-	<?php include("footer.php");
 	
