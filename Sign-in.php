@@ -39,24 +39,24 @@
 						<td>Age: </td>
 						<td> 
 							<select>
-							<option value="child">Child</option>
-							<option value="teen">Teen</option>
-							<option value="adult">Adult</option>
-							<option value="seniorcitizen">Senior Citizen</option>
+							<option value="child" name="option1">Child</option>
+							<option value="teen" name="option1">Teen</option>
+							<option value="adult" name="option1">Adult</option>
+							<option value="seniorcitizen" name="option1">Senior Citizen</option>
 							</select>
 						</td>
 					</tr>
 					<tr>
 						<td>Email Id: </td>
-						<td> <input type="email" name="email" id="email" style="height:auto; padding:auto; width:100%;"></td>
+						<td> <input type="email" name="email_id" style="height:auto; padding:auto; width:100%;"></td>
 					</tr>
 					<tr>
 						<td>Password: </td>
-						<td> <input type="password" name="password" id="password" style="height:auto; padding:auto; width:100%;"></td>
+						<td> <input type="password" name="password" style="height:auto; padding:auto; width:100%;"></td>
 					</tr>
 					<tr>
 						<td>Retype Password: </td>
-						<td> <input type="password" name="password1" id="password1" style="height:auto; padding:auto; width:100%;"></td>
+						<td> <input type="password" name="password1" style="height:auto; padding:auto; width:100%;"></td>
 					</tr>
 					<tr>
 					<td> </td>

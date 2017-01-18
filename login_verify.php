@@ -6,7 +6,7 @@ $con=mysqli_connect('localhost','root','','knowdent');
 $email=$_POST['email'];
 $password=$_POST['password'];
 
-$query="Select * from users where email='$email'";
+$query="Select * from register where email_id = '$email'";
 
 $result=mysqli_query($con,$query);
 
